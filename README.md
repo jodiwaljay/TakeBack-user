@@ -9,3 +9,6 @@ https://github.com/jodiwaljay/TakeBack-user
 https://github.com/jodiwaljay/TakeBack-admin
 
 **Screenshots of the App**
+
+<img src="Screenshots/Screenshot_20160428-195007.png" width="280"> <img src="Screenshots/Screenshot_20160428-195012.png" width="280"> <img src="Screenshots/Screenshot_20160428-195016.png" width="280">
+<img src="Screenshots/Screenshot_20160428-195019.png" width="280"> <img src="Screenshots/Screenshot_20160428-195044.png" width="280">
