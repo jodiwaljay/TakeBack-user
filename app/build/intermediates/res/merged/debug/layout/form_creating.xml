@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:fitsSystemWindows="true"
+    tools:context="com.elegance.feedback.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:orientation="vertical"
+                    android:id="@+id/layout_form"
+
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:maxWidth="250dp"
+                        android:id="@+id/imgLogo"
+                        android:layout_gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edPin"
+                        android:inputType="phone"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="40sp"
+                        android:hint="Enter Pin"/>
+
+
+
+                    <Button
+                        android:id="@+id/bLoadForm"
+                        android:text="Load Form"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/buttonshape"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

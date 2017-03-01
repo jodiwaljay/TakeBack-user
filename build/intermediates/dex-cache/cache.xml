@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_dc56f79c3a5ea6c49675127e2c6e80cab7c24a77/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_48821a7c8e1d52472b767d37d97519cb4bec87d6/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/LinuxSdk/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_ba8f82b1a775a1ef3bbf0b633463aa80e39a198c/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_095bc14f6fe40933c6c84981bc91f45e8a6bb791/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e2b5fd7db14d87a7ef15393fbba7ed2ac1898a4d">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_26561cd09b5370c85fd902068d747d12ace41175/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_7374cc2bc8f0d81b17003e3edd8b8e9cc944db25/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_df02f6a8a99cf3b156239d9c6d1ea991d303e81b/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_11379036ef6afcf33a9415a975d8613535ed9074/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_d9a9b187dbe96ae36f576651a6c5e48cc8862e24/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_af0604aa018580312ad651e79f28551fbacc7d27/classes.dex" />
+    </item>
+    <item
+        jar="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f65fcee40babec802dbe5deb4b0c4b886ae78650">
+        <dex dex="/home/jodiwaljay/Desktop/Feedback/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d414871e9d6d759f9ccccbb2d799d35131ac3d70/classes.dex" />
+    </item>
+
+</items>

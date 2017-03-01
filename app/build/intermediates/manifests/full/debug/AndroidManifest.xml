@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elegance.feedback"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_feedback"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.elegance.feedback.Form_Creation"
+            android:icon="@drawable/icon_feedback"
+            android:label="Take Back"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.MainActivity"
+            android:icon="@drawable/icon_feedback"
+            android:label=" "
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.upload_feedbacks"
+            android:icon="@drawable/icon_feedback"
+            android:label=" "
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.UPLOAD_FEEDBACKS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.Take_another"
+            android:icon="@drawable/icon_feedback"
+            android:label=" "
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.TAKE_ANOTHER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.AskCompanyDetails"
+            android:label="Create Company"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.ASKCOMPANYDETAILS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.preview"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Help us do better"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.Load_Form"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Help us do better"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.LOAD_FORM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.ChooseType"
+            android:label="Choose Type"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.CHOOSETYPE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elegance.feedback.AddQuestion"
+            android:label="Add Question"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.elegance.feedback.ADDQUESTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

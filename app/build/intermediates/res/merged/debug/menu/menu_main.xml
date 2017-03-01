@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.elegance.feedback.MainActivity">
+    <item
+        android:id="@+id/change_logo"
+        android:orderInCategory="100"
+        android:title="Change Logo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/loaded_form"
+        android:orderInCategory="100"
+        android:title="Load saved form"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        android:title="Upload all feedbacks"
+        app:showAsAction="never" />
+</menu>
